@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Main</title>
+
+    <meta name="author" content='Suns'>
+    <meta name="description" content="..">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1, nimimum-scale=1">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/stickcode/googleMap/google_map.css">
+</head>
+<body>
+
+<div id="map"></div>
+<input id="refreshMap" type="button" value="Refresh" style="display:none" /><br>
+
+
+<!--js파일 호출 index.js -->
+<script defer type="text/javascript" src="/stickcode/googleMap/google_map.js"></script>
+<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap"></script>
+<script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
+
+
+</body>
+</html>
